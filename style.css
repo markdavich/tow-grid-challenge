@@ -3,6 +3,7 @@
   --lt-gray: rgb(238,239,241);
   --dk-gray: rgb(90,87,81);
   --dk-blue: rgb(48,122,171);
+  --padding: 10px;
 }
 
 .header {
@@ -11,14 +12,14 @@
 }
 
 .blue {
-  padding: 3%;
+  padding: var(--padding);
   background-color: var(--dk-blue);
   color: whitesmoke;
 }
 
 .lt-gray {
-  margin: auto;
-  padding: 3%;
+  /* margin: auto; */
+  padding: var(--padding);
   color: var(--dk-gray);
   background-color: var(--lt-gray);
 }
