@@ -1,23 +1,37 @@
 :root {
-  --lt-gray: rgb(130,133,146);
+  --lt-g-txt: rgb(140,141,150);
+  --lt-gray: rgb(238,239,241);
   --dk-gray: rgb(90,87,81);
   --dk-blue: rgb(48,122,171);
 }
 
 .header {
   text-align: center;
-  color: var(--lt-gray);
+  color: var(--lt-g-txt);
 }
 
 .blue {
+  padding: 3%;
   background-color: var(--dk-blue);
+  color: whitesmoke;
 }
 
 .lt-gray {
+  margin: auto;
+  padding: 3%;
   color: var(--dk-gray);
   background-color: var(--lt-gray);
 }
 
 .white {
+  color: var(--lt-g-txt);
   background-color: white;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 50px;
 }
