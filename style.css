@@ -1,0 +1,23 @@
+:root {
+  --lt-gray: rgb(130,133,146);
+  --dk-gray: rgb(90,87,81);
+  --dk-blue: rgb(48,122,171);
+}
+
+.header {
+  text-align: center;
+  color: var(--lt-gray);
+}
+
+.blue {
+  background-color: var(--dk-blue);
+}
+
+.lt-gray {
+  color: var(--dk-gray);
+  background-color: var(--lt-gray);
+}
+
+.white {
+  background-color: white;
+}
